@@ -16,5 +16,13 @@ namespace Home_Work
         {
             InitializeComponent();
         }
+
+        private void tab1_button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(tab1_textBox1.Text);
+            int b = Convert.ToInt32(tab1_textBox2.Text);
+            int c = a + b;
+            tab1_textBox3.Text = c.ToString();
+        }
     }
 }
