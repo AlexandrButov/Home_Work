@@ -31,14 +31,14 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tab2_min = new System.Windows.Forms.Label();
+            this.tab2_label3 = new System.Windows.Forms.Label();
+            this.tab2_label2 = new System.Windows.Forms.Label();
+            this.tab2_label1 = new System.Windows.Forms.Label();
             this.tab2_textBox3 = new System.Windows.Forms.TextBox();
             this.tab2_textBox2 = new System.Windows.Forms.TextBox();
             this.tab2_textBox1 = new System.Windows.Forms.TextBox();
             this.tab2_button1 = new System.Windows.Forms.Button();
-            this.tab2_label1 = new System.Windows.Forms.Label();
-            this.tab2_label2 = new System.Windows.Forms.Label();
-            this.tab2_label3 = new System.Windows.Forms.Label();
-            this.tab2_min = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
@@ -82,6 +82,42 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // tab2_min
+            // 
+            this.tab2_min.AutoSize = true;
+            this.tab2_min.Location = new System.Drawing.Point(155, 57);
+            this.tab2_min.Name = "tab2_min";
+            this.tab2_min.Size = new System.Drawing.Size(12, 15);
+            this.tab2_min.TabIndex = 7;
+            this.tab2_min.Text = "-";
+            // 
+            // tab2_label3
+            // 
+            this.tab2_label3.AutoSize = true;
+            this.tab2_label3.Location = new System.Drawing.Point(114, 127);
+            this.tab2_label3.Name = "tab2_label3";
+            this.tab2_label3.Size = new System.Drawing.Size(77, 15);
+            this.tab2_label3.TabIndex = 6;
+            this.tab2_label3.Text = "Результат";
+            // 
+            // tab2_label2
+            // 
+            this.tab2_label2.AutoSize = true;
+            this.tab2_label2.Location = new System.Drawing.Point(206, 35);
+            this.tab2_label2.Name = "tab2_label2";
+            this.tab2_label2.Size = new System.Drawing.Size(24, 15);
+            this.tab2_label2.TabIndex = 5;
+            this.tab2_label2.Text = "B=";
+            // 
+            // tab2_label1
+            // 
+            this.tab2_label1.AutoSize = true;
+            this.tab2_label1.Location = new System.Drawing.Point(17, 35);
+            this.tab2_label1.Name = "tab2_label1";
+            this.tab2_label1.Size = new System.Drawing.Size(23, 15);
+            this.tab2_label1.TabIndex = 4;
+            this.tab2_label1.Text = "A=";
+            // 
             // tab2_textBox3
             // 
             this.tab2_textBox3.Location = new System.Drawing.Point(114, 147);
@@ -111,42 +147,7 @@
             this.tab2_button1.TabIndex = 0;
             this.tab2_button1.Text = "button1";
             this.tab2_button1.UseVisualStyleBackColor = true;
-            // 
-            // tab2_label1
-            // 
-            this.tab2_label1.AutoSize = true;
-            this.tab2_label1.Location = new System.Drawing.Point(17, 35);
-            this.tab2_label1.Name = "tab2_label1";
-            this.tab2_label1.Size = new System.Drawing.Size(23, 15);
-            this.tab2_label1.TabIndex = 4;
-            this.tab2_label1.Text = "A=";
-            // 
-            // tab2_label2
-            // 
-            this.tab2_label2.AutoSize = true;
-            this.tab2_label2.Location = new System.Drawing.Point(206, 35);
-            this.tab2_label2.Name = "tab2_label2";
-            this.tab2_label2.Size = new System.Drawing.Size(24, 15);
-            this.tab2_label2.TabIndex = 5;
-            this.tab2_label2.Text = "B=";
-            // 
-            // tab2_label3
-            // 
-            this.tab2_label3.AutoSize = true;
-            this.tab2_label3.Location = new System.Drawing.Point(114, 127);
-            this.tab2_label3.Name = "tab2_label3";
-            this.tab2_label3.Size = new System.Drawing.Size(77, 15);
-            this.tab2_label3.TabIndex = 6;
-            this.tab2_label3.Text = "Результат";
-            // 
-            // tab2_min
-            // 
-            this.tab2_min.AutoSize = true;
-            this.tab2_min.Location = new System.Drawing.Point(155, 57);
-            this.tab2_min.Name = "tab2_min";
-            this.tab2_min.Size = new System.Drawing.Size(12, 15);
-            this.tab2_min.TabIndex = 7;
-            this.tab2_min.Text = "-";
+            this.tab2_button1.Click += new System.EventHandler(this.tab2_button1_Click);
             // 
             // Form1
             // 
