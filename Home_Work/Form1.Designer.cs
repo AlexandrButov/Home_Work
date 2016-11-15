@@ -39,8 +39,17 @@
             this.tab1_textBox1 = new System.Windows.Forms.TextBox();
             this.tab1_button1 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tab2_min = new System.Windows.Forms.Label();
+            this.tab2_label3 = new System.Windows.Forms.Label();
+            this.tab2_label2 = new System.Windows.Forms.Label();
+            this.tab2_label1 = new System.Windows.Forms.Label();
+            this.tab2_textBox3 = new System.Windows.Forms.TextBox();
+            this.tab2_textBox2 = new System.Windows.Forms.TextBox();
+            this.tab2_textBox1 = new System.Windows.Forms.TextBox();
+            this.tab2_button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -149,13 +158,92 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.tabPage2.Controls.Add(this.tab2_min);
+            this.tabPage2.Controls.Add(this.tab2_label3);
+            this.tabPage2.Controls.Add(this.tab2_label2);
+            this.tabPage2.Controls.Add(this.tab2_label1);
+            this.tabPage2.Controls.Add(this.tab2_textBox3);
+            this.tabPage2.Controls.Add(this.tab2_textBox2);
+            this.tabPage2.Controls.Add(this.tab2_textBox1);
+            this.tabPage2.Controls.Add(this.tab2_button1);
             this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(339, 262);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tab2_min
+            // 
+            this.tab2_min.AutoSize = true;
+            this.tab2_min.Location = new System.Drawing.Point(155, 57);
+            this.tab2_min.Name = "tab2_min";
+            this.tab2_min.Size = new System.Drawing.Size(12, 15);
+            this.tab2_min.TabIndex = 7;
+            this.tab2_min.Text = "-";
+            // 
+            // tab2_label3
+            // 
+            this.tab2_label3.AutoSize = true;
+            this.tab2_label3.Location = new System.Drawing.Point(114, 127);
+            this.tab2_label3.Name = "tab2_label3";
+            this.tab2_label3.Size = new System.Drawing.Size(77, 15);
+            this.tab2_label3.TabIndex = 6;
+            this.tab2_label3.Text = "Результат";
+            // 
+            // tab2_label2
+            // 
+            this.tab2_label2.AutoSize = true;
+            this.tab2_label2.Location = new System.Drawing.Point(206, 35);
+            this.tab2_label2.Name = "tab2_label2";
+            this.tab2_label2.Size = new System.Drawing.Size(24, 15);
+            this.tab2_label2.TabIndex = 5;
+            this.tab2_label2.Text = "B=";
+            // 
+            // tab2_label1
+            // 
+            this.tab2_label1.AutoSize = true;
+            this.tab2_label1.Location = new System.Drawing.Point(17, 35);
+            this.tab2_label1.Name = "tab2_label1";
+            this.tab2_label1.Size = new System.Drawing.Size(23, 15);
+            this.tab2_label1.TabIndex = 4;
+            this.tab2_label1.Text = "A=";
+            // 
+            // tab2_textBox3
+            // 
+            this.tab2_textBox3.BackColor = System.Drawing.Color.LavenderBlush;
+            this.tab2_textBox3.Location = new System.Drawing.Point(114, 147);
+            this.tab2_textBox3.Name = "tab2_textBox3";
+            this.tab2_textBox3.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox3.TabIndex = 3;
+            // 
+            // tab2_textBox2
+            // 
+            this.tab2_textBox2.BackColor = System.Drawing.Color.LavenderBlush;
+            this.tab2_textBox2.Location = new System.Drawing.Point(206, 54);
+            this.tab2_textBox2.Name = "tab2_textBox2";
+            this.tab2_textBox2.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox2.TabIndex = 2;
+            // 
+            // tab2_textBox1
+            // 
+            this.tab2_textBox1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.tab2_textBox1.Location = new System.Drawing.Point(17, 54);
+            this.tab2_textBox1.Name = "tab2_textBox1";
+            this.tab2_textBox1.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox1.TabIndex = 1;
+            // 
+            // tab2_button1
+            // 
+            this.tab2_button1.BackColor = System.Drawing.Color.Gainsboro;
+            this.tab2_button1.Location = new System.Drawing.Point(114, 97);
+            this.tab2_button1.Name = "tab2_button1";
+            this.tab2_button1.Size = new System.Drawing.Size(94, 23);
+            this.tab2_button1.TabIndex = 0;
+            this.tab2_button1.Text = "button1";
+            this.tab2_button1.UseVisualStyleBackColor = false;
+            this.tab2_button1.Click += new System.EventHandler(this.tab2_button1_Click);
             // 
             // Form1
             // 
@@ -169,6 +257,8 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -186,6 +276,14 @@
         private System.Windows.Forms.Label tab1_label2;
         private System.Windows.Forms.Label tab1_label1;
         private System.Windows.Forms.Label tab1_plus;
+        private System.Windows.Forms.TextBox tab2_textBox3;
+        private System.Windows.Forms.TextBox tab2_textBox2;
+        private System.Windows.Forms.TextBox tab2_textBox1;
+        private System.Windows.Forms.Button tab2_button1;
+        private System.Windows.Forms.Label tab2_min;
+        private System.Windows.Forms.Label tab2_label3;
+        private System.Windows.Forms.Label tab2_label2;
+        private System.Windows.Forms.Label tab2_label1;
     }
 }
 

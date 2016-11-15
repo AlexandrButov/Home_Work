@@ -24,5 +24,13 @@ namespace Home_Work
             int c = a + b;
             tab1_textBox3.Text = c.ToString();
         }
+
+        private void tab2_button1_Click(object sender, EventArgs e)
+        {
+            int a = Convert.ToInt32(tab2_textBox1.Text);
+            int b = Convert.ToInt32(tab2_textBox2.Text);
+            int c = a + b;
+            tab2_textBox3.Text = c.ToString();
+        }
     }
 }
