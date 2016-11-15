@@ -241,7 +241,7 @@
             this.tab2_button1.Name = "tab2_button1";
             this.tab2_button1.Size = new System.Drawing.Size(94, 23);
             this.tab2_button1.TabIndex = 0;
-            this.tab2_button1.Text = "button1";
+            this.tab2_button1.Text = "Посчитать";
             this.tab2_button1.UseVisualStyleBackColor = false;
             this.tab2_button1.Click += new System.EventHandler(this.tab2_button1_Click);
             // 

@@ -29,7 +29,7 @@ namespace Home_Work
         {
             int a = Convert.ToInt32(tab2_textBox1.Text);
             int b = Convert.ToInt32(tab2_textBox2.Text);
-            int c = a + b;
+            int c = a - b;
             tab2_textBox3.Text = c.ToString();
         }
     }
