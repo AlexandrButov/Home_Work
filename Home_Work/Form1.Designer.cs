@@ -31,7 +31,12 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tab2_button1 = new System.Windows.Forms.Button();
+            this.tab2_textBox1 = new System.Windows.Forms.TextBox();
+            this.tab2_textBox2 = new System.Windows.Forms.TextBox();
+            this.tab2_textBox3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -57,13 +62,47 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Controls.Add(this.tab2_textBox3);
+            this.tabPage2.Controls.Add(this.tab2_textBox2);
+            this.tabPage2.Controls.Add(this.tab2_textBox1);
+            this.tabPage2.Controls.Add(this.tab2_button1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(339, 264);
+            this.tabPage2.Size = new System.Drawing.Size(339, 262);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tab2_button1
+            // 
+            this.tab2_button1.Location = new System.Drawing.Point(114, 97);
+            this.tab2_button1.Name = "tab2_button1";
+            this.tab2_button1.Size = new System.Drawing.Size(94, 23);
+            this.tab2_button1.TabIndex = 0;
+            this.tab2_button1.Text = "button1";
+            this.tab2_button1.UseVisualStyleBackColor = true;
+            // 
+            // tab2_textBox1
+            // 
+            this.tab2_textBox1.Location = new System.Drawing.Point(17, 54);
+            this.tab2_textBox1.Name = "tab2_textBox1";
+            this.tab2_textBox1.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox1.TabIndex = 1;
+            // 
+            // tab2_textBox2
+            // 
+            this.tab2_textBox2.Location = new System.Drawing.Point(206, 54);
+            this.tab2_textBox2.Name = "tab2_textBox2";
+            this.tab2_textBox2.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox2.TabIndex = 2;
+            // 
+            // tab2_textBox3
+            // 
+            this.tab2_textBox3.Location = new System.Drawing.Point(114, 147);
+            this.tab2_textBox3.Name = "tab2_textBox3";
+            this.tab2_textBox3.Size = new System.Drawing.Size(100, 21);
+            this.tab2_textBox3.TabIndex = 3;
             // 
             // Form1
             // 
@@ -74,6 +113,8 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -83,6 +124,10 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TextBox tab2_textBox3;
+        private System.Windows.Forms.TextBox tab2_textBox2;
+        private System.Windows.Forms.TextBox tab2_textBox1;
+        private System.Windows.Forms.Button tab2_button1;
     }
 }
 
