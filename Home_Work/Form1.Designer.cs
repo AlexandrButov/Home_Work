@@ -158,7 +158,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.tabPage2.Controls.Add(this.tab2_min);
             this.tabPage2.Controls.Add(this.tab2_label3);
             this.tabPage2.Controls.Add(this.tab2_label2);
@@ -173,7 +173,6 @@
             this.tabPage2.Size = new System.Drawing.Size(339, 262);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tab2_min
             // 
@@ -213,6 +212,7 @@
             // 
             // tab2_textBox3
             // 
+            this.tab2_textBox3.BackColor = System.Drawing.Color.LavenderBlush;
             this.tab2_textBox3.Location = new System.Drawing.Point(114, 147);
             this.tab2_textBox3.Name = "tab2_textBox3";
             this.tab2_textBox3.Size = new System.Drawing.Size(100, 21);
@@ -220,6 +220,7 @@
             // 
             // tab2_textBox2
             // 
+            this.tab2_textBox2.BackColor = System.Drawing.Color.LavenderBlush;
             this.tab2_textBox2.Location = new System.Drawing.Point(206, 54);
             this.tab2_textBox2.Name = "tab2_textBox2";
             this.tab2_textBox2.Size = new System.Drawing.Size(100, 21);
@@ -227,6 +228,7 @@
             // 
             // tab2_textBox1
             // 
+            this.tab2_textBox1.BackColor = System.Drawing.Color.LavenderBlush;
             this.tab2_textBox1.Location = new System.Drawing.Point(17, 54);
             this.tab2_textBox1.Name = "tab2_textBox1";
             this.tab2_textBox1.Size = new System.Drawing.Size(100, 21);
@@ -234,12 +236,13 @@
             // 
             // tab2_button1
             // 
+            this.tab2_button1.BackColor = System.Drawing.Color.Gainsboro;
             this.tab2_button1.Location = new System.Drawing.Point(114, 97);
             this.tab2_button1.Name = "tab2_button1";
             this.tab2_button1.Size = new System.Drawing.Size(94, 23);
             this.tab2_button1.TabIndex = 0;
             this.tab2_button1.Text = "button1";
-            this.tab2_button1.UseVisualStyleBackColor = true;
+            this.tab2_button1.UseVisualStyleBackColor = false;
             this.tab2_button1.Click += new System.EventHandler(this.tab2_button1_Click);
             // 
             // Form1
