@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Сложение = new System.Windows.Forms.TabControl();
+            this.к = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tab1_plus = new System.Windows.Forms.Label();
             this.tab1_label3 = new System.Windows.Forms.Label();
@@ -47,21 +47,21 @@
             this.tab2_textBox2 = new System.Windows.Forms.TextBox();
             this.tab2_textBox1 = new System.Windows.Forms.TextBox();
             this.tab2_button1 = new System.Windows.Forms.Button();
-            this.Сложение.SuspendLayout();
+            this.к.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Сложение
+            // к
             // 
-            this.Сложение.Controls.Add(this.tabPage1);
-            this.Сложение.Controls.Add(this.tabPage2);
-            this.Сложение.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Сложение.Location = new System.Drawing.Point(13, 13);
-            this.Сложение.Name = "Сложение";
-            this.Сложение.SelectedIndex = 0;
-            this.Сложение.Size = new System.Drawing.Size(347, 290);
-            this.Сложение.TabIndex = 0;
+            this.к.Controls.Add(this.tabPage1);
+            this.к.Controls.Add(this.tabPage2);
+            this.к.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.к.Location = new System.Drawing.Point(13, 13);
+            this.к.Name = "к";
+            this.к.SelectedIndex = 0;
+            this.к.Size = new System.Drawing.Size(347, 290);
+            this.к.TabIndex = 0;
             // 
             // tabPage1
             // 
@@ -172,7 +172,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(339, 262);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "Вычитание";
             // 
             // tab2_min
             // 
@@ -251,10 +251,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(372, 315);
-            this.Controls.Add(this.Сложение);
+            this.Controls.Add(this.к);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Сложение.ResumeLayout(false);
+            this.к.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage2.ResumeLayout(false);
@@ -265,7 +265,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TabControl Сложение;
+        private System.Windows.Forms.TabControl к;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TextBox tab1_textBox3;
